@@ -29,3 +29,21 @@
     /* Add 10px margin */
     
 
+    .flex-container{
+        display: flex;
+        height: 500px;
+        background-color: rgb(121, 34, 34);
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .box1,.box2,.box3{
+        background-color:rgb(187, 213, 236);
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        text-align: center;
+        align-content: baseline;
+        border: 5px solid rgb(196, 76, 76);
+    }
